@@ -1,10 +1,10 @@
 # Calculator_Group37
-
+----
 ### Team Members: 
 - Sai Krishna Chapalamadugu(P949S628)  
 - Srihari Kothuri(V482C434)  
 - Surya Teja Yepuri(M523T682)  
-
+----
 ### Teammate's Contribution:  
 #### Srihari Kothuri  
   1. Menu UI  
@@ -30,6 +30,7 @@
 
 
 
+----
 ### Images:  
 
 - Homepage  

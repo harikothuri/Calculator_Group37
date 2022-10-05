@@ -36,6 +36,8 @@
 ![Homepage](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/Homepage.png)  
 - Drawer  
 ![Drawer](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/Drawer.png)  
+- ExtendedPage  
+![ExtendedPage](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/ExtendedPage.png)  
 - About  
 ![About](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/About.png)  
 - Menu  

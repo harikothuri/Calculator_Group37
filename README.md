@@ -6,19 +6,19 @@
 - Surya Teja Yepuri  
 
 ### Teammate's Contribution:  
-#### Sai Krishna Chapalamadugu  
+#### Srihari Kothuri  
   1. Menu UI  
   1. Menu page functionality  
-  2. Extend Page UI  
-  3. Extend page functionality  
+  1. Git setup
+  1. Functionality - BODMAS, Complex expression
   
   
 #### Surya Teja Yepuri  
   1. AppShell and the code behind file
   1. Themes - Green and Pink
   1. Main page and integrating the themes
-  1. Git setup
-  1. Functionality - BODMAS, Complex expression
+  2. Extend Page UI  
+  3. Extend page functionality  
 
 
 #### Sai Krishna Chapalamadugu  
@@ -36,8 +36,6 @@
 ![Homepage](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/Homepage.png)  
 - Drawer  
 ![Drawer](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/Drawer.png)  
-- ExtendedPage  
-![ExtendedPage](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/ExtendedPage.png)  
 - About  
 ![About](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/About.png)  
 - Menu  

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.About"
+             Title="About"
+			 BackgroundColor="{DynamicResource White}">
+    <VerticalStackLayout Margin="100">
+        <Label
+		   Text="Srihari Kothuri"
+		   VerticalOptions="Center"
+		   HorizontalOptions="Center" 
+            FontSize="Header"
+            Margin="40"
+		   TextColor="#000000"/>
+
+        <Label
+            Text="Sai Krishna Chapalamadugu"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" 
+            Margin="40"
+            FontSize="Header"
+			TextColor="#000000"/>
+
+        <Label
+            Text="Surya Teja Yepuri"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" 
+            Margin="40"
+            FontSize="Header"
+			TextColor="#000000"/>
+    </VerticalStackLayout>
+</ContentPage>

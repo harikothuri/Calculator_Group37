@@ -5,14 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Calculator"
     Shell.FlyoutBehavior="Flyout"
-    Shell.BackgroundColor="{DynamicResource Primary}"
-    FlyoutBackgroundColor="{DynamicResource SecondaryColor}"
+    Shell.BackgroundColor="{DynamicResource PrimaryColor}"
+    FlyoutBackgroundColor="{DynamicResource PrimaryColor}"
     Shell.TitleColor="{DynamicResource Accent}"
-    Shell.ForegroundColor="{DynamicResource Accent}">
+    Shell.ForegroundColor="{DynamicResource SecondaryColor}">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:MainPage}"        
         Route="MainPage" />
     <ShellContent
         Title="ExtendPage" 
@@ -26,5 +26,9 @@
         Title="Menu" 
         ContentTemplate="{DataTemplate local:Menu}"
         Route="Menu" />
+    <ShellContent
+        Title="Exercise" 
+        ContentTemplate="{DataTemplate local:Exercise1}"
+        Route="Exercise1" />
 
 </Shell>

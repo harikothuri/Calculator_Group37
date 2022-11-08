@@ -46,18 +46,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Themes\Dark.xaml.cs">
-	    <DependentUpon>Dark.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Themes\Green.xaml.cs">
-	    <DependentUpon>Green.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Themes\Light.xaml.cs">
-	    <DependentUpon>Light.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Themes\Pink.xaml.cs">
-	    <DependentUpon>Pink.xaml</DependentUpon>
-	  </Compile>
+	  <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -67,22 +56,25 @@
 	  <MauiXaml Update="AppShell.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Themes\Dark.xaml">
+	  <MauiXaml Update="DarkTheme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Exercise.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ExtendPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Themes\Green.xaml">
+	  <MauiXaml Update="GreenTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Themes\Light.xaml">
+	  <MauiXaml Update="LightTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Menu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Themes\Pink.xaml">
+	  <MauiXaml Update="PinkTheme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

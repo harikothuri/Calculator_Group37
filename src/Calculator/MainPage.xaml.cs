@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-
+    
     public MainPage()
     {
         InitializeComponent();
@@ -15,12 +15,12 @@ public partial class MainPage : ContentPage
     string mathOperator;
     double firstNumber, secondNumber;
     string decimalFormat = "N0";
-
-
+    
+    
 
     void OnSelectNumber(object sender, EventArgs e)
     {
-
+    
         Button button = (Button)sender;
         string pressed = button.Text;
 
@@ -50,7 +50,7 @@ public partial class MainPage : ContentPage
         currentState = -2;
         Button button = (Button)sender;
         string pressed = button.Text;
-        mathOperator = pressed;
+        mathOperator = pressed;            
     }
 
     private void LockNumberValue(string text)
@@ -85,20 +85,20 @@ public partial class MainPage : ContentPage
     {
         if (currentState == 2)
         {
-            if (secondNumber == 0)
+            if(secondNumber == 0)
                 LockNumberValue(resultText.Text);
 
             double result = Calculator.Calculate(firstNumber, secondNumber, mathOperator);
 
-            CurrentCalculation.Text = $"{firstNumber} {mathOperator} {secondNumber}";
+            this.CurrentCalculation.Text = $"{firstNumber} {mathOperator} {secondNumber}";
 
-            resultText.Text = result.Trim(decimalFormat);
+            this.resultText.Text = result.ToTrimmedString(decimalFormat);
             firstNumber = result;
             secondNumber = 0;
             currentState = -1;
             currentEntry = string.Empty;
         }
-    }
+    }    
 
     void OnNegative(object sender, EventArgs e)
     {

@@ -22,27 +22,25 @@ public partial class ExtendPage : ContentPage
 
         Button button = (Button)sender;
         string pressed = button.Text;
-        switch (pressed)
+        if (pressed == "mod")
         {
-            case "mod":
-                currentEntry += "%";
-                break;
-
-            case "×":
-                currentEntry += "*";
-                break;
-
-            case "÷":
-                currentEntry += "/";
-                break;
-
-            case "%":
-                currentEntry += "*0.01";
-                break;
-
-            default:
-                currentEntry += pressed;
-                break;
+            currentEntry += "%";
+        }
+        else if (pressed == "×")
+        {
+            currentEntry += "*";
+        }
+        else if (pressed == "÷")
+        {
+            currentEntry += "/";
+        }
+        else if (pressed == "%")
+        {
+            currentEntry += "*0.01";
+        }
+        else
+        {
+            currentEntry += pressed;
         }
 
         resultText.Text = currentEntry;
@@ -56,8 +54,14 @@ public partial class ExtendPage : ContentPage
         currentState = -2;
         Button button = (Button)sender;
         string pressed = button.Text;
-        mathOperator = pressed == "mod" ? "%" : pressed;
-
+        if (pressed == "mod")
+        {
+            mathOperator = "%";
+        }
+        else
+        {
+            mathOperator = pressed;
+        }
     }
 
     private void LockNumberValue(string text)
@@ -66,9 +70,14 @@ public partial class ExtendPage : ContentPage
         if (double.TryParse(text, out number))
         {
             if (currentState == 1)
+            {
                 firstNumber = number;
+            }
             else
+            {
                 secondNumber = number;
+            }
+
             currentEntry = string.Empty;
         }
     }
@@ -119,5 +128,7 @@ public partial class ExtendPage : ContentPage
         this.resultText.Text = sq.ToString();
         currentState = -1;
         currentEntry = sq.ToString();
+
+
     }
 }

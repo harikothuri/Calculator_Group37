@@ -7,9 +7,9 @@ public partial class App : Application
 
         InitializeComponent();
 
-        //MainPage = new AppShell();
-        //About = new AppShell();
+        MainPage = new AppShell();
+        About = new AppShell();
     }
 
-    //public AppShell About { get; }
+    public AppShell About { get; }
 }

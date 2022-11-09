@@ -5,7 +5,9 @@
 - Srihari Kothuri(V482C434)  
 - Surya Teja Yepuri(M523T682)  
 ----
-- Assignmment2 Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EV3sUn5mgfhNjjOm-xmu4tkBvAUoE4QT2QNYbxvVHqr4FQ?e=Fz2n72
+- Assignment2 UI Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EV3sUn5mgfhNjjOm-xmu4tkBvAUoE4QT2QNYbxvVHqr4FQ?e=Fz2n72
+- Assignment2 API Swagger Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EUBJOowb7rZGjwo5Urk-EK0BRo8PGcr9TV55APTdSU35Ag?e=Rfanzw
+- Assignment2 API Postman Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EYW6ojDdUSBEvyucrUgRirEBhIZdbGZl0R4QnLJ4_t-qNg?e=MJ74Pj
 ----
 ### Teammate's Contribution:  
 

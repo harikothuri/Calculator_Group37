@@ -2,10 +2,10 @@
 
 public static class Calculator
 {
+    public static List<HistoryItem> historyItems = new List<HistoryItem>();
     public static double Calculate(double value1, double value2, string mathOperator)
     {
         double result = 0;
-
         switch (mathOperator)
         {
             case "÷":
@@ -22,6 +22,8 @@ public static class Calculator
                 break;
         }
 
+        string question = value1.ToString() + mathOperator + value2.ToString();
+        historyItems.Add(new HistoryItem() { QuestionAnswer = question + " = " + result.ToString() });
         return result;
     }
 }

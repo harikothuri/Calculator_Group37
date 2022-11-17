@@ -7,30 +7,6 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    //public class HistoryItems : INotifyPropertyChanged
-    //{
-    //    private List<HistoryItem> _items;
-    //    public List<HistoryItem> Items
-    //    {
-    //        get => _items;
-    //        set
-    //        {
-    //            if (_items == value) return;
-    //            _items = value;
-    //            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Items)));
-    //        }
-    //    }
-    //    public HistoryItems()
-    //    {
-    //        Items = new List<HistoryItem>();
-    //    }
-    //    public event PropertyChangedEventHandler PropertyChanged;
-    //}
-    //public class HistoryItem
-    //{
-    //    public string QuestionAnswer { get; set; }
-    //    public string DateTime1 { get; set; }
-    //}
     public class HistoryItem : INotifyPropertyChanged
     {
         private string _q;

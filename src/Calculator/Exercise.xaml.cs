@@ -39,22 +39,6 @@ public partial class Exercise1 : ContentPage
         Val1.Text = item.Options[0];
         Val2.Text = item.Options[1];
         Val3.Text = item.Options[2];
-        //if (counter == 0)
-        //{
-        //    Previous.IsEnabled = false;
-        //}
-        //else
-        //{
-        //    Previous.IsEnabled = true;
-        //}
-        //if (counter >= _exercises.Count-1)
-        //{
-        //    Next.IsEnabled = false;
-        //}
-        //else
-        //{
-        //    Next.IsEnabled = true;
-        //}
     }
 
     private void Complete()
@@ -132,12 +116,6 @@ public partial class Exercise1 : ContentPage
     {
         CheckVal(1);
     }
-
-    //private void Previous_Clicked(object sender, EventArgs e)
-    //{
-    //    --counter;
-    //    LoadQuestion();
-    //}
 
     private void TryAgain_Clicked(object sender, EventArgs e)
     {

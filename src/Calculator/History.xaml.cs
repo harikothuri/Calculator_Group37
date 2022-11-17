@@ -3,7 +3,6 @@ using System.Collections.ObjectModel;
 
 namespace Calculator;
 
-//[QueryProperty(nameof(HistoryItems), "Items")]
 public partial class History1 : ContentPage
 {
     public ObservableCollection<HistoryItem> Items = new ObservableCollection<HistoryItem>();
@@ -29,11 +28,4 @@ public partial class History1 : ContentPage
     {
         LoadData();
         base.OnAppearing();
-        //collectionView.ItemsSource = await _dataService.GetAllToDosAsync();
-        //ListViewItems.ItemsSource = Calculator.historyItems;
     }
-    //private void ContentPage_NavigatedTo(object sender, NavigatedToEventArgs e)
-    //{
-    //    LoadData();
-    //}
-}

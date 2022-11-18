@@ -29,3 +29,4 @@ public partial class History1 : ContentPage
         LoadData();
         base.OnAppearing();
     }
+}

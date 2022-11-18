@@ -8,6 +8,9 @@
 - Assignment2 UI Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EV3sUn5mgfhNjjOm-xmu4tkBvAUoE4QT2QNYbxvVHqr4FQ?e=Fz2n72
 - Assignment2 API Swagger Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EUBJOowb7rZGjwo5Urk-EK0BRo8PGcr9TV55APTdSU35Ag?e=Rfanzw
 - Assignment2 API Postman Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EYW6ojDdUSBEvyucrUgRirEBhIZdbGZl0R4QnLJ4_t-qNg?e=MJ74Pj
+
+- Assignment3 Windows App -https://youtu.be/2cuepwXDb28 
+- Assignment3 Andriod App - https://youtube.com/shorts/3-ljxayJJog?feature=share
 ----
 ### Teammate's Contribution:  
 
@@ -24,22 +27,28 @@
   1. Load Question and answer
   2. Documentation
   
+  ##### Assignment3:
+  1. Flyout added
+  2. Basic UI created
+  
 #### Surya Teja Yepuri  
   ##### Assignment1:
   1. AppShell and the code behind file
   1. Themes - Green and Pink
   1. Main page and integrating the themes
   2. Extend Page UI  
-  3. Extend page functionality  
-
+  3. Extend page functionality
   ##### Assignment2:
-1. Validate answer based
-1. Logic for Correct answer
-1. Logic for incorrect answer
-1. 	Try again
-1. 	Skip to Next
-1. Next quiz
-
+  1. Validate answer based
+  1. Logic for Correct answer
+  1. Logic for incorrect answer
+  1. 	Try again
+  1. 	Skip to Next
+  1. Next quiz
+  ##### Assignment3:
+  1. Loding data on History Page
+  1. Demo video
+  
 #### Sai Krishna Chapalamadugu  
   ##### Assignment1: 
   1. Project setup
@@ -51,8 +60,11 @@
   1. API implementation:
   1. API skeleton
   1. Logic
-
-
+  ##### Assignment3:
+  1. Saving data on calculation
+  1. Updating History page on update
+  1. Documentaion
+  
 ----
 ### Images:  
  
@@ -83,4 +95,11 @@
 ![Exercise Green Theme](https://raw.githubusercontent.com/harikothuri/Calculator_Group37/main/images/Assignment2/Exercise_GreenTheme.png)
 
 
+#### Assignment3: 
+- History Flyout
+![History Flyout](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment3/Flyout.png?raw=true)
+- History Page
+![History Page](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment3/History%20Screen.png?raw=true)
+- History Page with data updated
+![Data Updated](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment3/History%20Screen_AfterUpdate.png?raw=true)
 

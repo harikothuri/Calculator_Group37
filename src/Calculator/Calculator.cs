@@ -46,6 +46,12 @@ public static class Calculator
         historyItems.Add(new HistoryItem() { QuestionAnswer = question + " = " + result.ToString() });
         return result;
     }
+    public static async Task LoadContent()
+    {
+        var test = await Database.Table<HistoryItem_DB>().ToListAsync();
+        historyItems.Clear();
+        test.ForEach(x => historyItems.Add(new HistoryItem() { DateTime1 = x.DateTime1, QuestionAnswer = x.QuestionAnswer }));
+    }
 }
 
 public static class DoubleExtensions

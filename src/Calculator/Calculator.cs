@@ -1,8 +1,19 @@
-﻿namespace Calculator;
+﻿using SQLite;
+using SQLitePCL;
+
+namespace Calculator;
 
 public static class Calculator
 {
+    static SQLiteAsyncConnection Database = null;
+    public static string DatabaseFilePath = Path.Combine("C:\\Share", "HistorySQLite1.db3");
+
     public static List<HistoryItem> historyItems = new List<HistoryItem>();
+
+    public const SQLiteOpenFlags Flags =
+                                        SQLiteOpenFlags.ReadWrite |
+                                        SQLiteOpenFlags.Create |
+                                        SQLiteOpenFlags.SharedCache;
     public static double Calculate(double value1, double value2, string mathOperator)
     {
         double result = 0;

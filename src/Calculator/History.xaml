@@ -5,6 +5,7 @@
              BackgroundColor="{DynamicResource PrimaryColor}"
              Title="History1">
     <VerticalStackLayout>
+        <Button Text="Clear History" Clicked="Button_ClickedAsync" Margin="100,20,15,5" />
         <ListView x:Name="ListViewItems">
             <ListView.ItemTemplate>
                 <DataTemplate>

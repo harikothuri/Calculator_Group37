@@ -124,7 +124,7 @@
 
   #### Assignment4: 
 - New UI
-![New UI]()
+![New UI](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/ClearButton.png?raw=true)
 
 - UI Data compared to DB data
-![UI Data compared to DB data]()
+![UI Data compared to DB data](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/DB%20Lookup.png?raw=true)

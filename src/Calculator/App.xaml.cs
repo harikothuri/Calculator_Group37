@@ -9,6 +9,7 @@ public partial class App : Application
 
         MainPage = new AppShell();
         About = new AppShell();
+        _ = Calculator.CreateConnection();
     }
 
     public AppShell About { get; }

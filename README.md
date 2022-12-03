@@ -36,7 +36,16 @@
   1. Connection to DB
   2. Loading Content DB
   2. Delete All Records DB
-  
+> ###### Commits: 
+>  ###### 9a3be4a5b5cc4355b208084f9c24aec3dd50fc63
+>  ###### 5aff924ec7b022937450ec3430d104f4d55ae850
+>  ###### 1f348716f12701847f1bd89028ae63287e78afab
+>  ###### 4386ad5460b087ffe2de5aa213984bc33cc2f8f9
+>  ###### 8749d4e5ed3a83a8a2e778a1540490da214372bc
+>  ###### 4cbb3a45234cd24089c23aaf30ce875ce8d71009
+>  ###### 6c7ea39be79d16437487142f625df3d1e7b0a67c
+
+
 #### Surya Teja Yepuri  
   ##### Assignment1:
   1. AppShell and the code behind file
@@ -60,6 +69,10 @@
   1. Updated Existing DateTime format
   2. Remove Basic Implementation
   2. Basic code for DB calls
+> ###### Commits: 
+>  ###### f282e7b46ccfe9f821ca2243936655dcfc4fcd5c
+>  ###### 012f9ebf1d1bd834d7d55814618cd25f05f80644 
+>  ###### bd2706513feed9e24c75f8dde65694a823933ba8
   
 #### Sai Krishna Chapalamadugu  
   ##### Assignment1: 
@@ -83,6 +96,13 @@
   1. Added new entity
   1. Delete All call
   1. Connection on launch
+> ###### Commits: 
+>  ###### 8219c3eec542029eef23be744d0b5639ed53f014
+>  ###### e341beeb1310420c681b85d756fc036d82369963
+>  ###### 230f7bc0487f13d19a73e5b6a7d875f54e9cb2da
+>  ###### 364d9b007cc050c847306f0aed2583b45b2cd08c
+>  ###### 0aa1e4258f8e01101c3c8d3304181de36df6ccb4
+
 ----
 ### Images:  
  

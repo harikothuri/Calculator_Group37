@@ -29,4 +29,10 @@ public partial class History1 : ContentPage
         LoadData();
         base.OnAppearing();
     }
+
+    private void Button_ClickedAsync(object sender, EventArgs e)
+    {
+        Items.Clear();
+    }
+
 }

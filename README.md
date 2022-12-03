@@ -10,7 +10,8 @@
 - Assignment2 API Postman Demo - https://wichitaedu-my.sharepoint.com/:v:/g/personal/v482c434_wichita_edu/EYW6ojDdUSBEvyucrUgRirEBhIZdbGZl0R4QnLJ4_t-qNg?e=MJ74Pj
 
 - Assignment3 Windows App -https://youtu.be/2cuepwXDb28 
-- Assignment3 Andriod App - https://youtube.com/shorts/3-ljxayJJog?feature=share
+- Assignment3 Android App - https://youtube.com/shorts/3-ljxayJJog?feature=share
+- Assignment4 - https://youtu.be/lWGVYX8TkZI
 ----
 ### Teammate's Contribution:  
 
@@ -30,6 +31,11 @@
   ##### Assignment3:
   1. Flyout added
   2. Basic UI created
+
+  ##### Assignment4:
+  1. Connection to DB
+  2. Loading Content DB
+  2. Delete All Records DB
   
 #### Surya Teja Yepuri  
   ##### Assignment1:
@@ -45,9 +51,15 @@
   1. 	Try again
   1. 	Skip to Next
   1. Next quiz
+
   ##### Assignment3:
   1. Loding data on History Page
   1. Demo video
+  
+  ##### Assignment4:
+  1. Updated Existing DateTime format
+  2. Remove Basic Implementation
+  2. Basic code for DB calls
   
 #### Sai Krishna Chapalamadugu  
   ##### Assignment1: 
@@ -65,6 +77,12 @@
   1. Updating History page on update
   1. Documentaion
   
+  ##### Assignment4:
+  1. Updated the UI
+  1. Updated SQL package
+  1. Added new entity
+  1. Delete All call
+  1. Connection on launch
 ----
 ### Images:  
  
@@ -103,3 +121,10 @@
 - History Page with data updated
 ![Data Updated](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment3/History%20Screen_AfterUpdate.png?raw=true)
 
+
+  #### Assignment4: 
+- New UI
+![New UI]()
+
+- UI Data compared to DB data
+![UI Data compared to DB data]()

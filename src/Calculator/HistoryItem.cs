@@ -34,7 +34,7 @@ namespace Calculator
 
         public HistoryItem()
         {
-            DateTime1 = DateTime.Now.ToShortTimeString();
+            DateTime1 = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

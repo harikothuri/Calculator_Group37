@@ -128,3 +128,11 @@
 
 - UI Data compared to DB data
 ![UI Data compared to DB data](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/DB%20Lookup.png?raw=true)
+
+-Few Images:
+
+![Image 1](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/More%20Data.png?raw=true)
+
+![Image 2](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/NewUi_1.png?raw=true)
+
+![Image 3](https://github.com/harikothuri/Calculator_Group37/blob/main/images/Assignment4/NewUi_2.png?raw=true)

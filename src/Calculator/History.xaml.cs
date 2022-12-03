@@ -33,6 +33,7 @@ public partial class History1 : ContentPage
     private void Button_ClickedAsync(object sender, EventArgs e)
     {
         _ = Calculator.DeletAll();
+        _ = Calculator.LoadContent();
         Items.Clear();
     }
 

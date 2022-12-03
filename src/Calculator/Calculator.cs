@@ -43,14 +43,32 @@ public static class Calculator
         }
 
         string question = value1.ToString() + mathOperator + value2.ToString();
-        historyItems.Add(new HistoryItem() { QuestionAnswer = question + " = " + result.ToString() });
+        try
+        {
+            _ = SaveAndRetriveContentAsync(new HistoryItem_DB() { QuestionAnswer = question + " = " + result.ToString() });
+        }
+        catch (Exception ex)
+        {
+            var test = 12;
+        }
         return result;
+    }
+
+    private static async Task SaveAndRetriveContentAsync(HistoryItem_DB historyItem)
+    {
+        await Database.InsertAsync(historyItem);
+        await LoadContent();
+
     }
     public static async Task LoadContent()
     {
         var test = await Database.Table<HistoryItem_DB>().ToListAsync();
         historyItems.Clear();
         test.ForEach(x => historyItems.Add(new HistoryItem() { DateTime1 = x.DateTime1, QuestionAnswer = x.QuestionAnswer }));
+    }
+    public static async Task<int> DeletAll()
+    {
+        return await Database.DeleteAllAsync<HistoryItem_DB>();
     }
 }
 

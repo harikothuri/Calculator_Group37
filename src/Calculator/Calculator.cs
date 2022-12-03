@@ -14,6 +14,15 @@ public static class Calculator
                                         SQLiteOpenFlags.ReadWrite |
                                         SQLiteOpenFlags.Create |
                                         SQLiteOpenFlags.SharedCache;
+    public static async Task CreateConnection()
+    {
+        if (Database is not null)
+            return;
+
+        Database = new SQLiteAsyncConnection(DatabaseFilePath, Flags);
+        var result = await Database.CreateTableAsync<HistoryItem_DB>();
+        var test = 10;
+    }
     public static double Calculate(double value1, double value2, string mathOperator)
     {
         double result = 0;
